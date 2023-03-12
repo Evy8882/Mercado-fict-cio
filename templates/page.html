@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar produto</title>
+    <link rel="stylesheet" href="/static/css/pageStyle.css">
+    <script src="/static/js/app.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <span class="logo"><strong>ToMercado.com.br</strong></span>
+                <input type="text" class="searchInput" placeholder="Buscar...">
+                <button class="searchButton">Buscar</button>
+            </div>
+            <div>
+                <button class="backbutton" onclick="goBack()"><img src="https://cdn-icons-png.flaticon.com/512/159/159605.png" alt="voltar" class="backIcon"></button>
+            </div>
+        </div>
+        
+    </header>
+    <div class="container">
+    <div class="infoImgContainer">
+        <img src='{{dados['img']}}'  alt="" class="InfoImg">
+    </div>
+    <div class="infoContainer">
+        <h1 class="titulo">{{dados['titulo']}}</h1>
+        <div class="preco"><span class="RS">R$</span>{{dados['preco']}}</div>
+        <div class="informacoes">
+            <div>
+            <p> Marca:	{{dados['marca']}}</p>
+            <p> Cor:	{{dados['cor']}}</p>
+        </div>
+            
+        <br>
+        Entrega em 2 dias
+        <p class="frete">Frete Grátis</p>
+        
+        </div>
+        <br>
+        <div>
+            <p><button class="comprarAgora">Comprar agora</button></p>
+            <p><button class="adicionarCarrinho">Adicionar ao carrinho</button></p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

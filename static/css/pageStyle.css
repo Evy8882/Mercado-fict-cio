@@ -1,0 +1,116 @@
+*{
+    font: normal 10pt arial;
+    margin: auto;
+}
+body{
+    width: 90%;
+}
+
+header{
+    color: white;
+    background-color: rgb(36, 36, 37);
+    width: 100%;
+    padding: 20px;
+}
+.logo{
+    margin-right: 185px;
+}
+.searchInput{
+    height: 35px;
+    width: 40rem;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    margin-right: 0px;
+    border-right: none;
+}
+.searchButton{
+    background-color: rgb(97, 97, 248);
+    border: 0px;
+    height: 38px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    outline: solid;
+    outline-color: black;
+    outline-width: 2px;
+}
+.searchButton:hover{
+    background-color: rgb(143, 143, 240);
+}
+img{
+    max-width: 80%;
+}
+.container{
+    /* display: grid; */
+    position: relative;
+    align-items: center;
+}
+.infoContainer{
+    margin: 15px;
+    background-color: rgb(221, 221, 221);
+    width: 650px;
+    float: right;
+    padding: 20px;
+    border-radius: 20px;
+    height: 400px;
+}
+.infoImgContainer{
+    margin: 15px;
+    width: 450px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo{
+    color: black;
+    font: bold 20pt arial;
+    margin: 15px;
+}
+.adicionarCarrinho,
+.comprarAgora{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    border-radius: 99px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.preco{
+    color: black;
+    font: bold 15pt arial;
+    margin: 15px;
+}
+.informacoes{
+    color: black;
+    margin: 15px;
+}
+.frete{
+    font: bold 13pt arial;
+    color: rgb(19, 133, 19);
+}
+.comprarAgora{
+    background-color: rgb(100, 100, 243);
+    color: white;
+}
+.adicionarCarrinho{
+    background-color: white;
+    color: rgb(100, 100, 243);
+}
+.comprarAgora:hover,
+.comprarAgora:focus{
+    background-color: rgb(66, 66, 158);
+}
+.adicionarCarrinho:hover,
+.adicionarCarrinho:focus{
+    background-color: rgb(219, 219, 219);
+}
+.backIcon{
+    max-width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backbutton{
+    width: 30px;
+    height: 30px;
+}
